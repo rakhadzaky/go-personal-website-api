@@ -25,3 +25,7 @@ func (repo *repository) GetProjectData(ctx echo.Context) error {
 	log.Println("Get Project Data from Repository")
 	return nil
 }
+
+func (repo *repository) InsertPorjectData(ctx echo.Context) error {
+	return nil
+}
