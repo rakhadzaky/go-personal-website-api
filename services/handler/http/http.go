@@ -25,4 +25,5 @@ func NewHttpHandler(router *echo.Echo, serviceUc usecase.Usecase) {
 	})
 
 	router.GET("/get-project", h.GetProjectData)
+	router.POST("/post-project", h.PostProjectData)
 }
